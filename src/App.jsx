@@ -8,7 +8,7 @@ export default function App() {
         <div className="box-1">
           <h1>Box 1</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe amet nobis tenetur pariatur eligendi qui?
           </p>
         </div>
         <div className="box-2">

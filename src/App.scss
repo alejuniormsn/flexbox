@@ -1,3 +1,30 @@
-.container div {
-  border: 1px solid black;
+.container {
+  display: flex;
+  height: 600px;
+  background: #333333;
+  flex-direction: column;
+  //flex-flow: wrap;
+  //justify-content: center;
+  //align-content: space-between;
+  align-items: flex-start;
+
+  .box-1 {
+    order: 2;
+    flex: 1;
+  }
+
+  .box-2 {
+    order: 1;
+    flex: 2;
+  }
+
+
+  div {
+    border: 1px solid black;
+    background-color: aliceblue;
+  }
 }
+/*
+https: //youtu.be/WBMN-PcwqG8
+https: //css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
